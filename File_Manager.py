@@ -2,7 +2,7 @@ import argparse
 import os
 import sys
 import time
-
+# *Git Repo is intialized
 import blessed
 
 parser = argparse.ArgumentParser()
