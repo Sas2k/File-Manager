@@ -120,8 +120,7 @@ def clear():
     # for windows
     if os.name == 'nt':
         _ = os.system('cls')
-    # for mac and linux(here, os.name is 'posix')
-    else:
+    if os.name != 'nt':
         _ = os.system('clear')
 ###########Settings############
 color = term.yellow
