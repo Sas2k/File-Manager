@@ -14,9 +14,11 @@ jobs:
       - name: Setup Enviroment
         run: |
           pip3 install virtualenv
-          Sudo apt-get install virtualenv
+          sudo apt-get install virtualenv
+      - name: Virtual Enviroment
+        run: |
           virtualenv venv
-          venv/bin/activate
+          source venv/bin/activate
       - name: Install Dependancies
         run: pip3 install -r requirements.txt
       - name: Run File
