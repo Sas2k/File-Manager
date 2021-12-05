@@ -22,5 +22,4 @@ jobs:
       - name: Install Dependancies
         run: pip3 install -r requirements.txt
       - name: Run File
-        run: |
-          python3 File_Manager.py
+        run: python3 File_Manager.py
