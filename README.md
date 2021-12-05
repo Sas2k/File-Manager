@@ -81,6 +81,7 @@ You can just unzip the file [if you haven't already done it at the start of the 
 
 ### Windows
 
+[The EXE File is in the bin file and the release section]
 The `File_Manager.exe` file can be found when you unzip source code [sorry 😅] or by going to the code section and click the File_Manager.exe file and<br>click downloaded<br>
 also you might want to add the folder where the .exe is intalled to path then;
 
