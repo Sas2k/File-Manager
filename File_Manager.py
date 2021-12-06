@@ -128,7 +128,7 @@ warning_color = term.red
 edit_color = term.blue
 ###############################
 if run == True:
-    print(term.green('[:Made by Sasen Perera 2021:]\n[For help type "help"]\n[Version 3.0.0]'))
+    print(term.green('[:Made by Sasen Perera 2021:]\n[For help type "help"]\n[Version 3.1.0]'))
 while run:
     x += 1
     inp = input(color(f'[{x}]:'))
