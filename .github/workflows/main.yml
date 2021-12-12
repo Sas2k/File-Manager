@@ -19,4 +19,4 @@ jobs:
     - name: Install Dependancies
       run: python -m pip install -r requirements.txt
     - name: Run Python File
-      run: python File_Manager.py
+      run: python -m File_Manager -h
