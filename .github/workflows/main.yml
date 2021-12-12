@@ -1,0 +1,28 @@
+name: Python File Test
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Action:
+    name: Python Setup
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v1
+    
+    - name: Setup Python
+      uses: actions/setup-python@v2.3.1
+    - name: Set-up Virtual Enviroment
+      uses: syphar/restore-virtualenv@v1
+      id: cache-virtualenv
+      with:
+        requirement_files: requirements.txt
+        
+    - uses: syphar/restore-pip-download-cache@v1
+      if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+    
+    - run: pip install -r requirements.txt
+      if: steps.cache-virtualenv.outputs.cache-hit != 'true'
+    
+    - name: Run Python File
+      run: python File_Manager.py
