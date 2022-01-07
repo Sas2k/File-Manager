@@ -47,7 +47,7 @@ Firstly change your directory in your cli to the place you<br>downloaded the fil
 C:>Users/user>cd path/to/file
 C:path/to/file>Python -m 'File Manager.py' <put the flags here>
 ```
-##### EXE
+##### EXE (x64)
 Firstly read the installation section then come here;
 Hello Welcome back now that you have read the installation section <br>Now let's get started
 ```cmd
@@ -88,7 +88,7 @@ Or;
 
 You can just unzip the file [if you haven't already done it at the start of the process]<br> and double click/run it with python😏
 
-### Windows
+### Windows (x64)
 
 [The EXE File is in the bin file and the release section]
 The `File_Manager.exe` file can be found when you unzip source code [sorry 😅] or by going to the code section and click the File_Manager.exe file and<br>click downloaded<br>
