@@ -13,11 +13,14 @@ parso
 pefile
 pluggy
 py
-pyinstallerpyinstaller-hooks-contrib
+pyinstaller
+pyinstaller-hooks-contrib
 pyparsing
 pytest
-pywin32pywin32-ctypes
+pywin32
+pywin32-ctypes
 six
 toml
-tornadotraitlets
+tornado
+traitlets
 wcwidth
