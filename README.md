@@ -7,7 +7,7 @@ A simple cli based File Manager
 
 [![Run on Repl.it](https://repl.it/badge/github/Sas2k/File-Manager)](https://repl.it/github/Sas2k/File-Manager)
 
-[![Github Downloads (total)](https://img.shields.io/github/downloads/Sas2k/File-Manager/total.svg)]()
+![GitHub all releases](https://img.shields.io/github/downloads/sas2k/File-Manager/total)
 
 [![Python File Test](https://github.com/Sas2k/File-Manager/actions/workflows/main.yml/badge.svg)](https://github.com/Sas2k/File-Manager/actions/workflows/main.yml)
 
